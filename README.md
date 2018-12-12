@@ -10,10 +10,17 @@ Zeta was originally developed to find distinct words for authors or later distin
 ## Parameters
 
 -path_to_metadata : Filepath to a Metadatatable in csv-format (sep=tab)
+
 -path_to_files : Filepath to the folder containing files (tokenized, one token per line)
+
 -output_filepath : Path to store the output
+
 -target : Metadata criteria to build the focus group
+
 -segmentlen : Length (in token) of compared chunks
+
 -max_segments_per_group: maximal number of segments for each group
+
 -counter_size : (even|full) even: size of comparision group is limited to size of focus group | full: no limit is set
+
 -selection_mode : (random|balanced) random: the comparision group is build on a random sample across categories | balanced: if comparision group is build from different classes, these classes will be represented as equal as possible
